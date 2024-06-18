@@ -25,7 +25,7 @@ else:
     for word in words:
         if(len(word)>2):
             stnew= word[3:-3]
-            stnew= word[-1] + word[:-1]
+            stnew=  stnew[-1] + stnew[:-1]
             nwords.append(stnew)
         else:
              nwords.append(word[::-1])
