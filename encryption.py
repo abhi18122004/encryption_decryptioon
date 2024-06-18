@@ -5,7 +5,7 @@ def rand_str_gen():
     return(rand_str)
 
 
-mg = input("Enter the message to be encryped:")
+mg = input("Enter the message to be encryped/decrypted:")
 words= mg.split(" ")
 coding= input("Enter 1 for coding and 0 for decoding:")
 coding = True if (coding=="1") else False
